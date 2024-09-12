@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Голосуй против чуркобесов!</h1>
+    <h2>Вместе мы сила!</h2>
+    <form>
+        <div>
+            <label for="knopka_fam">Фамилия</label>
+            <input type="text" id="knopka_fam"
+            placeholder=" Фамилия">
+        </div>
+        <div>
+            <label for="knopka_name">Имя</label>
+            <input type="text" id="knopka_name"
+            placeholder="Имя">
+        </div>
+        <div>
+            <label for="knopka_number">Телефон</label>
+        <input type="text" id="knopka_number"
+        placeholder="+7">
+        </div>
+        <div>
+            <label for="password">Пароль</label>
+        <input type="password" id="password"
+        placeholder="Пароль">
+        </div>
+        <br>
+        <div>
+            <label for="number">Хуев чурке в жопу</label>
+        <input type="number" id="number" min="99999">
+        </div>
+        <br>
+        <div>
+            <label for="range">Ваша ненависть к чуркам</label>
+        <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+        <br>
+        <div>
+            <label for="date">Дата</label>
+        <input type="date" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="color">Выберите нормальный цвет</label>
+            <input type="color" id="color">
+        </div>
+        <br>
+        <div>
+            <label for="message">Пожелания</label>
+            <br>
+            <textarea type="message" id="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="sex">Пол</label>
+            <select id="sex">
+                <option value="man" selected>Мужик</option>
+                <option value="female">Недомужик</option>
+                <option value="animal">Чуркобес</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="sex">Мера наказания чурок</label>
+            <br>
+            <input type="checkbox" name="job">Депортация
+            <input type="checkbox" name="job">Убийство
+            <input type="checkbox" name="job">Пытки
+            <input type="checkbox" name="job">Изнасилование дубинкой
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="sex">Полезность опроса(по 10 бальной)</label>
+            <br>
+            <input type="radio" name="work">1(я пидорас)
+            <input type="radio" name="work">2(я пидорас)
+            <input type="radio" name="work">3(я пидорас)
+            <input type="radio" name="work">10+
+            </select>
+        </div>
+        <br>
+        <div>
+        <input type="submit" value="Помочь Родине">
+        </div>
+    </form>
+</body>
+</html>
